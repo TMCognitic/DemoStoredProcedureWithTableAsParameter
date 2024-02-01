@@ -9,6 +9,11 @@ Modèle de script de post-déploiement
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-SET IDENTITY_INSERT Produit ON;
-INSERT INTO Produit (Id, Nom) VALUES (1, 'Coca'), (2, 'Eau'), (3, 'Chocolat');
-SET IDENTITY_INSERT Produit OFF;
+--SET IDENTITY_INSERT Produit ON;
+--INSERT INTO Produit (Id, Nom) VALUES (1, 'Coca'), (2, 'Eau'), (3, 'Chocolat');
+--SET IDENTITY_INSERT Produit OFF;
+
+
+--SET IDENTITY_INSERT Guitare ON;
+--INSERT INTO Guitare(Id, Nom) VALUES (1, 'Gibson'), (2, 'Fender'), (3, 'Mel');
+--SET IDENTITY_INSERT Guitare OFF;

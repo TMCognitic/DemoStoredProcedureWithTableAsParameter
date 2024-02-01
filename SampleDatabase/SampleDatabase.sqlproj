@@ -67,6 +67,11 @@
     <Build Include="Tables\Detail.sql" />
     <Build Include="Types\TProduit.sql" />
     <Build Include="Procedures\CSP_AddCommand.sql" />
+    <Build Include="Tables\Guitare.sql" />
+    <Build Include="Tables\Guitariste.sql" />
+    <Build Include="Tables\Joue.sql" />
+    <Build Include="Types\TGuitareId.sql" />
+    <Build Include="Procedures\CSP_AddGuitariste.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
